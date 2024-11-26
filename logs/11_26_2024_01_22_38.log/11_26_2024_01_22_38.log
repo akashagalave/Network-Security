@@ -1,0 +1,12 @@
+[ 2024-11-26 01:22:40,144 ] 17 root - INFO - Initiate data ingestion
+[ 2024-11-26 01:22:42,130 ] 91 root - INFO - Dataframe loaded with 11055 rows and 31 columns.
+[ 2024-11-26 01:22:42,226 ] 66 root - INFO - Performed train test split on the dataframe
+[ 2024-11-26 01:22:42,226 ] 71 root - INFO - Exporting train and test file path.
+[ 2024-11-26 01:22:42,289 ] 79 root - INFO - Exported train and test file path
+[ 2024-11-26 01:22:42,289 ] 19 root - INFO - Data Intiation completed
+[ 2024-11-26 01:22:42,297 ] 23 root - INFO - Initiate the data Validation
+[ 2024-11-26 01:22:42,389 ] 32 root - INFO - Required number of columns:2
+[ 2024-11-26 01:22:42,389 ] 33 root - INFO - Data frame has columns:31
+[ 2024-11-26 01:22:42,389 ] 32 root - INFO - Required number of columns:2
+[ 2024-11-26 01:22:42,389 ] 33 root - INFO - Data frame has columns:31
+[ 2024-11-26 01:22:42,530 ] 25 root - INFO -  Data Validation Completed
