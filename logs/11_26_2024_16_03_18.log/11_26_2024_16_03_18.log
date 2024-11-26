@@ -1,0 +1,20 @@
+[ 2024-11-26 16:03:20,400 ] 17 root - INFO - Initiate data ingestion
+[ 2024-11-26 16:03:25,955 ] 91 root - INFO - Dataframe loaded with 11055 rows and 31 columns.
+[ 2024-11-26 16:03:26,025 ] 66 root - INFO - Performed train test split on the dataframe
+[ 2024-11-26 16:03:26,025 ] 71 root - INFO - Exporting train and test file path.
+[ 2024-11-26 16:03:26,066 ] 79 root - INFO - Exported train and test file path
+[ 2024-11-26 16:03:26,066 ] 19 root - INFO - Data Intiation completed
+[ 2024-11-26 16:03:26,076 ] 23 root - INFO - Initiate the data Validation
+[ 2024-11-26 16:03:26,165 ] 32 root - INFO - Required number of columns:2
+[ 2024-11-26 16:03:26,165 ] 33 root - INFO - Data frame has columns:31
+[ 2024-11-26 16:03:26,165 ] 32 root - INFO - Required number of columns:2
+[ 2024-11-26 16:03:26,165 ] 33 root - INFO - Data frame has columns:31
+[ 2024-11-26 16:03:26,296 ] 25 root - INFO -  Data Validation Completed
+[ 2024-11-26 16:03:26,296 ] 28 root - INFO - Data transformation started
+[ 2024-11-26 16:03:26,296 ] 68 root - INFO - Entred initiate_data_trasnfroamtion method of datatrnsformation class
+[ 2024-11-26 16:03:26,296 ] 70 root - INFO - starting data transformation
+[ 2024-11-26 16:03:26,315 ] 49 root - INFO - Entered get_data_transfromer_object method of transformation class 
+[ 2024-11-26 16:03:26,315 ] 55 root - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2024-11-26 16:03:26,332 ] 51 root - INFO - Entred the save_object method of mainutils class
+[ 2024-11-26 16:03:26,342 ] 55 root - INFO - Exited the save_object method of mainutils class
+[ 2024-11-26 16:03:26,345 ] 32 root - INFO - data transformation completed
