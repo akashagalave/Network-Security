@@ -6,6 +6,10 @@ pymango
 certifi
 pymongo[srv]==3.6
 mlflow
+fastapi
+dagshub
 dill
 pyaml
+uvicorn
+python-multipart
 ##-e .

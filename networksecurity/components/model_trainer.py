@@ -22,6 +22,11 @@ from networksecurity.utils.main_utils.utils import (
 from networksecurity.utils.ml_util.metric.classification_metric import get_classification_score
 import mlflow
 
+
+import dagshub
+dagshub.init(repo_owner='akashagalaveaaa1', repo_name='Network-Security', mlflow=True)
+
+
 class ModelTrainer:
     def __init__(self, model_trainer_config: ModelTrainerConfig, data_transformation_artifact: DataTransformationArtifact):
         """
@@ -122,6 +127,10 @@ class ModelTrainer:
 
             network_model = NetworkModel(preprocessor=preprocessor, model=best_model)
             save_object(self.model_trainer_config.trained_model_file_path, obj=network_model)
+
+            ##model pusher
+
+            save_object("final_models/model.pkl",best_model)
 
             # Prepare ModelTrainerArtifact
             model_trainer_artifact = ModelTrainerArtifact(
