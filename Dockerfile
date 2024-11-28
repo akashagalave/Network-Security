@@ -4,5 +4,6 @@ COPY . /app
 
 RUN apt update -y && apt install awscli -y
 
-RUN apt-get update && pip install -r requirements.txt
+RUN apt-get update && apt-get install -y python3 python3-pip
+
 CMD ["python3","app.py"]
