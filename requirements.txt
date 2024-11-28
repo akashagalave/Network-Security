@@ -11,6 +11,4 @@ dagshub
 fastapi
 uvicorn
 python-multipart
-
-
-##-e .
+pywin32==308; platform_system == "Windows"
