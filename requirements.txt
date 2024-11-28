@@ -11,5 +11,6 @@ dagshub
 fastapi
 uvicorn
 python-multipart
-# Exclude pywin32 on non-Windows platforms
-pywin32==308; sys_platform == 'win32'
+
+
+##-e .
