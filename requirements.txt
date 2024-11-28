@@ -11,4 +11,5 @@ dagshub
 fastapi
 uvicorn
 python-multipart
-pywin32==308; platform_system == "Windows"
+# Only install pywin32 on Windows
+pywin32==308; sys_platform == 'win32'
