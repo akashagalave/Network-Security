@@ -1,9 +1,0 @@
-[ 2025-01-24 01:30:53,361 ] 74 dagshub.auth.tokens - INFO - Removed expired tokens from the token cache
-[ 2025-01-24 01:31:33,440 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/middleman "HTTP/1.1 200 OK"
-[ 2025-01-24 01:31:34,047 ] 1025 httpx - INFO - HTTP Request: POST https://dagshub.com/login/oauth/access_token "HTTP/1.1 200 OK"
-[ 2025-01-24 01:31:34,525 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[ 2025-01-24 01:31:34,539 ] 107 dagshub - INFO - Accessing as akashagalaveaaa1
-[ 2025-01-24 01:31:35,061 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/akashagalaveaaa1/Network-Security "HTTP/1.1 200 OK"
-[ 2025-01-24 01:31:35,563 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
-[ 2025-01-24 01:31:35,563 ] 107 dagshub - INFO - Initialized MLflow to track repo "akashagalaveaaa1/Network-Security"
-[ 2025-01-24 01:31:35,563 ] 107 dagshub - INFO - Repository akashagalaveaaa1/Network-Security initialized!
