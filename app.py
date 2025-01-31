@@ -19,6 +19,7 @@ from uvicorn import run as app_run
 from fastapi.responses import Response
 from starlette.responses import RedirectResponse
 import pandas as pd
+from networksecurity.constants.training_pipeline import APP_HOST,APP_PORT
 
 from networksecurity.utils.main_utils.utils import load_object
 
@@ -84,5 +85,5 @@ async def predict_route(request: Request,file: UploadFile = File(...)):
             raise NetworkSecurityException(e,sys)
 
     
-if __name__=="__main__":
-    app_run(app,host="0.0.0.0",port=5000,debug=True)
+if __name__ == "__main__":
+    app_run(app, host=APP_HOST, port=APP_PORT)
